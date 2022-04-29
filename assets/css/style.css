@@ -15,11 +15,16 @@
   text-transform: uppercase;
 }
 .menu{
+  margin: 10px;
+}
+.menu-block{
   display: flex;
   font-weight: bold;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .logo{
-  margin: 0 40px;
+  margin: 0 20px;
   text-transform: capitalize;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: 1.5em;
@@ -31,12 +36,15 @@ font-size: 1.5em;
   align-items: center;
 }
 .button {
-  margin: 0 40px;
+  margin: 0 20px;
   padding: 10px 20px;
   background-color: var(--main-color-dark);
   color: var(--main-color-light);
   border: 1px solid var(--main-color-light);
   border-radius: 4px;
   text-decoration: none;
+}
+img{
+  width: 100%;
 }
 
