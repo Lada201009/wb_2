@@ -1,22 +1,42 @@
 :root {
-  --main-color-light:#f6f7eb;
+  --main-color-light: #f6f7eb;
   --main-color-dark: #262626;
 }
-div{
-margin:0 20px;
-
-}
-.header {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content:space-between;
-  align-items: center;
-  max-width: 1200px;
-  margin:auto;
+.container {
+  display: inline-block;
+  width: 100% vw;
+  height: 90px;
   background-color: var(--main-color-dark);
 }
-a{
+.container,
+.menu {
   color: var(--main-color-light);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.menu{
+  display: flex;
+  font-weight: bold;
+}
+.logo{
+  margin: 0 40px;
+  text-transform: capitalize;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 1.5em;
+}
+.container{
+  display: flex;
+   justify-content: space-evenly; 
+  flex-wrap: wrap;
+  align-items: center;
+}
+.button {
+  margin: 0 40px;
+  padding: 10px 20px;
+  background-color: var(--main-color-dark);
+  color: var(--main-color-light);
+  border: 1px solid var(--main-color-light);
+  border-radius: 4px;
   text-decoration: none;
 }
 
